@@ -1,0 +1,7 @@
+.upperClip {
+  background:linear-gradient(to bottom, #566cd6, #eee);
+  clip-path: ellipse(100% 55% at 48% 44%);
+}
+.selected {
+  background-color:#566cd677;
+}
