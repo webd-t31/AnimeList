@@ -23,7 +23,7 @@ export default function Index() {
   }, [])
 
   function openAnime(id){
-    window.open("/"+id, "_blank");
+    window.open("/"+id, "_self");
   }
 
   function filter(ev){
