@@ -58,11 +58,3 @@ export default function AnimeDetails(){
     </Box>
   )
 }
-
-// export async function getStaticProps({params}){
-//   let animeDetail = await axios.get("https://ghibliapi.herokuapp.com/films/"+params.id, {
-//     responseType: "json"
-//   });
-//   let res = await animeDetail.data
-//   return {props: {movie: res}}
-// } 
